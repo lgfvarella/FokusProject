@@ -508,3 +508,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.8;
     cursor: not-allowed;
 }
+
+.app__form-add-task {
+    margin-bottom: 0.8rem;
+}
