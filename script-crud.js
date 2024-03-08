@@ -122,7 +122,7 @@ function editarTarefa(li) {
     formEditarTarefa.querySelector('.app__form-label').textContent = 'Editando tarefa';
     formEditarTarefa.querySelector('.app__form-textarea').value = paragrafo.textContent;
     li.after(formEditarTarefa);
-    formEditarTarefa.classList.remove('hidden');a
+    formEditarTarefa.classList.remove('hidden');
     formEditarTarefa.addEventListener('submit', (evento) => {
         evento.preventDefault();
         paragrafo.textContent = formEditarTarefa.querySelector('.app__form-textarea').value;
